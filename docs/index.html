@@ -172,10 +172,14 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
       <center><img src="./static/images/open_cvpr24.png" /><center>
       <h2 class="subtitle has-text-centered">
          We learn spatio-temporal grounding with unlabled video narration pairs.
         </h2>
+    </div>
+    </div>
     </div>
   </div>
 </section>
@@ -258,13 +262,16 @@ We evaluate the proposed approach and other methods on the proposed and standard
 
 <!--      <div class="columns is-centered has-text-centered">-->
 <!--      <div class="column is-four-fifths">-->
+  
   <h2 class="title is-3 is-centered has-text-centered ">Results</h2>
         <!-- Layers ablation. -->
+
         <h3 class="title is-4">Grounding YouTube Dataset</h3>
           <p>
             Visualization of the point annotation and automatic bounding box generation from points. The red point represents the mean of the five annotation points. The points annotation captures diverse patterns in various action types.
           </p>
         </div>
+        
         <div class="data-figure">
           <center><img src="./static/images/cvpr24_data.png" /><center>
         </div>
@@ -300,11 +307,17 @@ We evaluate the proposed approach and other methods on the proposed and standard
                  class="interpolation-image"
                  alt="Interpolation end reference image."/>
         </div>
+        <h2 class="content has-text-justified">
+          <p>
+         Red box: annotation. Heatmap: prediction. Baseline GLIP focuses on objects such as power, mixer, and pancake. Our method focuses on actions such as whisk and serve.
+          </p>
+        </h2>
         <!--/ Qualitative Examples. -->
 
       </div>
     </div>
     </div>
+    
     <!--/ Animation. -->
       <!-- Qualitative Examples. -->
 
