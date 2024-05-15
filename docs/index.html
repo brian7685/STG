@@ -172,7 +172,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./static/images/open_cvpr24.png" />
+      <center><img src="./static/images/open_cvpr24.png" /><center>
       <h2 class="subtitle has-text-centered">
          We learn spatio-temporal grounding with unlabled video narration pairs.
         </h2>
@@ -260,12 +260,15 @@ We evaluate the proposed approach and other methods on the proposed and standard
 <!--      <div class="column is-four-fifths">-->
   <h2 class="title is-3 is-centered has-text-centered ">Results</h2>
         <!-- Layers ablation. -->
-        <h3 class="title is-4">Layers Importance</h3>
+        <h3 class="title is-4">Grounding YouTube Dataset</h3>
           <p>
-            Impact of each layer on the merged perdition, using "a photo of a cat" as prompt for the last layers of ViT-H/14.
+            Visualization of the point annotation and automatic bounding box generation from points. The red point represents the mean of the five annotation points. The points annotation captures diverse patterns in various action types.
           </p>
         </div>
-        <div class="columns is-vcentered interpolation-panel">
+        <div class="data-figure">
+          <center><img src="./static/images/cvpr24_data.png" /><center>
+        </div>
+        <!-- <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
             <img src="./static/images/img_prompt_cat.png"
                  class="interpolation-image"
@@ -286,14 +289,14 @@ We evaluate the proposed approach and other methods on the proposed and standard
                  alt="Interpolation end reference image."/>
             <p class="is-bold">Merged Prediction</p>
           </div>
-        </div>
+        </div> -->
         <br/>
         <!--/ Layers ablation. -->
 
         <!-- Qualitative Examples. -->
         <div>
         <h3 class="title is-4">Qualitative Examples</h3>
-          <img src="./static/images/qualitative_sota.jpg"
+          <img src="./static/images/cvpr24_visual.png"
                  class="interpolation-image"
                  alt="Interpolation end reference image."/>
         </div>
@@ -314,14 +317,12 @@ We evaluate the proposed approach and other methods on the proposed and standard
         <img src="./static/images/image_install_legrad.png"
                  class="install-legrad"/> -->
 
-  <div class="columns is-centered is-max-desktop">
+<!--   <div class="columns is-centered is-max-desktop">
 <div class="column is-centered has-text-centered">
   <h2 class="title is-3">Use LeGrad in your own project</h2>
   <div class="container is-max-desktop content has-text-justified">
-<!--        <img src="./static/images/image_install_legrad.png"-->
-<!--                 class="install-legrad"/>-->
   <pre><code>pip install legrad_torch
-</code></pre>
+</code></pre> -->
 <!--          <pre><code class="language-python "> $ pip install legrad_torch-->
 <!--</code></pre>-->
 <!--<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>-->
@@ -365,11 +366,11 @@ We evaluate the proposed approach and other methods on the proposed and standard
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{bousselham2024legrad,
-  author    = {Bousselham, Walid and Boggust, Angie and Chaybouti, Sofian and Strobelt, Hendrik and Kuehne, Hilde}
-  title     = {LeGrad: An Explainability Method for Vision Transformers via Feature Formation Sensitivity},
-  journal   = {arXiv preprint arXiv:2404.03214},
-  year      = {2024},
+    <pre><code>@article{chen2023and,
+  title={What, when, and where?--Self-Supervised Spatio-Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions},
+  author={Chen, Brian and Shvetsova, Nina and Rouditchenko, Andrew and Kondermann, Daniel and Thomas, Samuel and Chang, Shih-Fu and Feris, Rogerio and Glass, James and Kuehne, Hilde},
+  journal={arXiv preprint arXiv:2303.16990},
+  year={2023}
 }</code></pre>
   </div>
 </section>
