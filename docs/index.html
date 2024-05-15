@@ -232,15 +232,19 @@ We evaluate the proposed approach and other methods on the proposed and standard
         </div>
         <h2 class="content has-text-justified">
           <p>
-         LeGrad introduces a novel explainability approach for Vision Transformers (ViTs) by elucidating the sensitivity of feature formation across different layers of the model.
-          By focusing on the model's attention mechanism, LeGrad computes gradients to highlight image regions pivotal for the model's decision-making process.
-          This method not only provides insights for a single layer but also aggregates information across multiple layers to offer a comprehensive understanding of how each image region contributes to the final prediction.
-          Through this technique, LeGrad aims to enhance the interpretability of ViTs, offering a clearer perspective on the model's internal workings and decision rationale.
+         Spatio-temporal grounding approach.
+         (a) We aim to select frames with groundable objects and actions. To this end, projected text features are matched with respective frame features. (b) Sinkhorn optimal transport is then leveraged to optimize the selected frames wrt. the text input. (c) Based on the selected frames, a global representation is learned to allow for temporal localization, as well as (d) A local representation to ground the action description in the spatial region. 
           </p>
         </h2>
         <div class="method-figure">
           <img src="./static/images/cvpr24_inf.png" />
         </div>
+        <h2 class="content has-text-justified">
+          <p>
+         Spatio-temporal inference. 
+         Both representations are used for spatio-temporal grounding: Starting by predicting the action boundary, spatial grounding is performed on the selected frames using the predicted label to find corresponding regions.
+          </p>
+        </h2>
       </div>
     </div>
     <!--/ Paper Method. -->
