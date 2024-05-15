@@ -52,22 +52,13 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://walidbousselham.com/">
+      <a class="navbar-item" href="https://brian7685.github.io/">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://github.com/WalBouss/GEM">
-            GEM (Grounding Everything Module)
-          </a>
-        </div>
-      </div>
+      
     </div>
 
   </div>
@@ -82,17 +73,29 @@
           <h1 class="title is-1 publication-title">What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://brian7685.github.io/">Brian Chen</a><sup>1,2</sup>,</span>
+              <a href="https://brian7685.github.io/">Brian Chen</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="http://angieboggust.com/">Angie Boggust</a><sup>3</sup>,</span>
+              <a href="http://angieboggust.com/">Nina Shvetsova</a><sup>2,7</sup>,</span>
             <span class="author-block">
-              <a href="">Sofian Chaybouti</a><sup>1,2</sup>,
+              <a href="">Andrew Rouditchenko</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="http://hendrik.strobelt.com/">Hendrik Strobelt</a><sup>4,5</sup>,
+              <a href="">Daniel Kondermann</a><sup>4</sup>,
             </span>
             <span class="author-block">
-              <a href="https://hildekuehne.github.io/">Hilde Kuehne</a><sup>1,2,4</sup>,
+              <a href="">Samuel Thomas</a><sup>5,6</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Shih-Fu Chang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Rogerio Feris/a><sup>5,6</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">James R. Glass</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://hildekuehne.github.io/">Hilde Kuehne</a><sup>2,6,7</sup>,
             </span>
           </div>
 
@@ -100,15 +103,17 @@
             <span class="author-block"><sup>1</sup>Columbia University</span>
             <span class="author-block"><sup>2</sup>Goethe University Frankfurt</span>
             <span class="author-block"><sup>3</sup>MIT CSAIL</span>
-            <span class="author-block"><sup>4</sup>MIT-IBM Watson AI Lab</span>
-            <span class="author-block"><sup>5</sup>IBM Research</span>
+            <span class="author-block"><sup>4</sup>Quality Match GmbH</span>
+            <span class="author-block"><sup>5</sup>MIT-IBM Watson AI Lab</span>
+            <span class="author-block"><sup>6</sup>IBM Research</span>
+            <span class="author-block"><sup>7</sup>University of Bonn</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2404.03214.pdf"
+                <a href="https://arxiv.org/pdf/2303.16990"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -117,7 +122,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2404.03214"
+                <a href="https://arxiv.org/abs/2303.16990"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -128,7 +133,7 @@
 
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/WalBouss/LeGrad"
+                <a href="https://github.com/brian7685/STG"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -138,17 +143,15 @@
               </span>
 
               <!-- HF Demo Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://huggingface.co/spaces/WalidBouss/LeGrad"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-<!--                      <i class="fab fa-github"></i>-->
-<!--                    <i class="fa-regular fa-face-smiling-hands"></i>-->
                     <img src="static/images/hf-logo.svg">
                   </span>
                   <span>Demo</span>
                   </a>
-              </span>
+              </span> -->
               <!-- Dataset Link. -->
 <!--              <span class="link-block">-->
 <!--                <a href="https://github.com/google/nerfies/releases/tag/0.1"-->
@@ -169,9 +172,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./static/images/teaser_figure_longer.png" />
+      <img src="./static/images/open_cvpr24.png" />
       <h2 class="subtitle has-text-centered">
-         LeGrad is an explainability method specifically designed for Vision Transformers.
+         We learn spatio-temporal grounding with unlabled video narration pairs.
         </h2>
     </div>
   </div>
@@ -206,16 +209,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Vision Transformers (ViTs), with their ability to model long-range dependencies through self-attention mechanisms, have become a standard architecture in computer vision. However, the interpretability of these models remains a challenge.
-To address this, we propose LeGrad, an explainability method specifically designed for ViTs.
+            Spatio-temporal grounding describes the task of localizing events in space and time, e.g., in video data, based on verbal descriptions only. Models for this task are usually trained with human-annotated sentences and bounding box supervision. This work addresses this task from a multimodal supervision perspective, proposing a framework for spatio-temporal action grounding trained on loose video and subtitle supervision only, without human annotation.
           </p>
           <p>
-<span class="dnerf">LeGrad</span> computes the gradient with respect to the attention maps of ViT layers, considering the gradient itself as the explainability signal.
-We aggregate the signal over all layers, combining the activations of the last as well as intermediate tokens to produce the merged explainability map.
-This makes LeGrad a conceptually simple and an easy-to-implement tool for enhancing the transparency of ViTs.
+To this end, we combine local representation learning, which focuses on leveraging fine-grained spatial information, with a global representation encoding that captures higher-level representations and incorporates both in a joint approach.
           </p>
             <p>
-We evaluate LeGrad in challenging segmentation, perturbation, and open-vocabulary settings, showcasing its versatility compared to other SotA explainability methods demonstrating its superior spatial fidelity and robustness to perturbations.
+To evaluate this challenging task in a real-life setting, a new benchmark dataset is proposed, providing dense spatio-temporal grounding annotations in long, untrimmed, multi-action instructional videos for over 5K events. 
+We evaluate the proposed approach and other methods on the proposed and standard downstream tasks, showing that our method improves over current baselines in various settings, including spatial, temporal, and untrimmed multi-action spatio-temporal grounding. 
           </p>
         </div>
       </div>
@@ -227,7 +228,7 @@ We evaluate LeGrad in challenging segmentation, perturbation, and open-vocabular
       <div class="column is-four-fifths">
         <h2 class="title is-3">Method</h2>
         <div class="method-figure">
-          <img src="./static/images/method_figure.jpg" />
+          <img src="./static/images/cvpr24_method.png" />
         </div>
         <h2 class="content has-text-justified">
           <p>
@@ -238,7 +239,7 @@ We evaluate LeGrad in challenging segmentation, perturbation, and open-vocabular
           </p>
         </h2>
         <div class="method-figure">
-          <img src="./static/images/layer_method.jpg" />
+          <img src="./static/images/cvpr24_inf.png" />
         </div>
       </div>
     </div>
