@@ -84,18 +84,19 @@ The difference to standard HowToCaption dataset is that ‘text’ is list of li
 If you're using HowToCaption or HowToCaption-grounded dataset in your research or applications, please cite using this BibTeX:
 
 ```
-@article{shvetsova2023howtocaption,
-  title={HowToCaption: Prompting LLMs to Transform Video Annotations at Scale},
-  author={Shvetsova, Nina and Kukleva, Anna and Hong, Xudong and Rupprecht, Christian and Schiele, Bernt and Kuehne, Hilde},
-  journal={arXiv preprint arXiv:2310.04900},
-  year={2023}
+@InProceedings{Chen_2024_CVPR,
+    author    = {Chen, Brian and Shvetsova, Nina and Rouditchenko, Andrew and Kondermann, Daniel and Thomas, Samuel and Chang, Shih-Fu and Feris, Rogerio and Glass, James and Kuehne, Hilde},
+    title     = {What When and Where? Self-Supervised Spatio-Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {18419-18429}
 }
 ```
 
 
 ### Licence: 
-
-HowToCaption and HowToCaption-grounded are based on Vicuna and MiniGpt-4 that are fine-tuned LLaMA and should be used under [LLaMA's model license](https://github.com/facebookresearch/llama/blob/main/LICENSE).   
+ 
 This repository is under Apache License. 
 
 
