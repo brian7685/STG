@@ -12,9 +12,8 @@ What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed
 ### Extracted frames:  
  The pre-extraced frames from the videos correspond to the annotation can be found [here](https://drive.google.com/file/d/1THpcXddk4SmNfTqeMujV7MxGIWeydO4H/view?usp=sharing)) ~2GB   
 
-### Annotation:  
- The spatio-temporal annotation is in the *annotation* folder
-
+### Box Annotation:  
+ The spatio-temporal annotation is in [box](annotations/GroundingYouTubeBox.json) 
  
 ## How To Use  
 
