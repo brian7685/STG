@@ -10,7 +10,10 @@ What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed
  GroundingYouTube dataset that we use in the paper can be found [here](https://docs.google.com/uc?export=download&id=1wmJvkvqZoqsD8rvFVZ3KLV2vV9WXv89R) ~7.1GB
  
 ### Extracted frames:  
- GroundingYouTube dataset that we use in the paper can be found [here](https://drive.google.com/file/d/1THpcXddk4SmNfTqeMujV7MxGIWeydO4H/view?usp=sharing)) ~2GB   
+ The pre-extraced frames from the videos correspond to the annotation can be found [here](https://drive.google.com/file/d/1THpcXddk4SmNfTqeMujV7MxGIWeydO4H/view?usp=sharing)) ~2GB   
+
+### Annotation:  
+ The spatio-temporal annotation is in the *annotation* folder
 
  
 ## How To Use  
