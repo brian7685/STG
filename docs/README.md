@@ -6,16 +6,13 @@ What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed
 
 ## Download:  
 
-### HowToCaptions dataset:  
-Vicuna-13B based captions:   
-HowToCaption dataset that we use in the paper can be found [here](https://drive.google.com/file/d/1GU6G29RcVO8Og9D5CsJDS24kRs3bpJ2a/view?usp=drive_link) ~1.5GB   
-Unfiltered HowToCaption with the corresponding scores based on BLIP model can be found [here](https://drive.google.com/file/d/1Do_anJj-FB8lGINKbUgbj7vd8AQaByzY/view?usp=drive_link) ~4.6GB   
+### Video dataset:  
+ GroundingYouTube dataset that we use in the paper can be found [here](https://docs.google.com/uc?export=download&id=1wmJvkvqZoqsD8rvFVZ3KLV2vV9WXv89R)) ~7.1GB
+ 
+### Extracted frames:  
+ GroundingYouTube dataset that we use in the paper can be found [here](https://drive.google.com/file/d/1THpcXddk4SmNfTqeMujV7MxGIWeydO4H/view?usp=sharing)) ~2GB   
 
-### HowToCaptions-grounded dataset:  
-MiniGPT-4  based captions:  
-HowToCaption-grounded dataset can be found [here](https://drive.google.com/file/d/1zBXyCHgO8zrytd1m3ohq3eF3nFEwAMki/view?usp=drive_link) ~1.5GB   
-Unfiltered HowToCaption-grounded dataset with corresponding scores based on BLIP model can be found [here](https://drive.google.com/file/d/1uNqxfEgviOt-Fmr9qMb0D3OhZ3LlqeIv/view?usp=drive_link) ~4.5GB  
-
+ 
 ## How To Use  
 
 #### How to use filtered HowToCaption or HowToCaption-grounded datasets:  
