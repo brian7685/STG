@@ -20,7 +20,7 @@ What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed
 
 #### How to use GroundingYouTube datasets:  
 * Each file is a dictionary with video-ids as keys. 
-* For each video, we provide a sequence of actions with their time/bounding box/step name annotation. 
+* For each video, we provide a sequence of actions with their time/bounding_box/step_name annotation. 
 * The time number represents the starting seconds where the action occurred in the video. For example, 81 represents the 81 sec of the video.
 
   
