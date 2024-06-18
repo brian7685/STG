@@ -7,7 +7,7 @@ What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed
 ## Download:  
 
 ### Video dataset:  
- GroundingYouTube dataset that we use in the paper can be found [here](https://docs.google.com/uc?export=download&id=1wmJvkvqZoqsD8rvFVZ3KLV2vV9WXv89R)) ~7.1GB
+ GroundingYouTube dataset that we use in the paper can be found [here](https://docs.google.com/uc?export=download&id=1wmJvkvqZoqsD8rvFVZ3KLV2vV9WXv89R) ~7.1GB
  
 ### Extracted frames:  
  GroundingYouTube dataset that we use in the paper can be found [here](https://drive.google.com/file/d/1THpcXddk4SmNfTqeMujV7MxGIWeydO4H/view?usp=sharing)) ~2GB   
