@@ -19,46 +19,42 @@ What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed
 ## How To Use  
 
 #### How to use GroundingYouTube datasets:  
-* Each file is a dictionary with video-ids as keys 
-* For each video we provide ‘start’, ‘end’, and ‘text’ lists of the same lengths  
-* ’start’ and ‘end’ correspond to starts and ends seconds of the clips in the video
+* Each file is a dictionary with video-ids as keys. 
+* For each video, we provide a sequence of actions with their time/bounding box/step name annotation. 
+* The time number represents the starting seconds where the action occurred in the video. For example, 81 represents the 81 sec of the video.
 
   
 To note: 
-- ‘text’ is list of lists of strings as to the same position in the video can correspond several captions
-- Starting seconds in ‘start’ list are not ordered; however, ‘end’ seconds always correspond  to ’start’ positions ordering
-
-
+- Our annotation is in 1 FPS. In the following examples, there are two sequences of actions, 'crack eggs' and 'pour egg whiles', where their duration lies between second [81-83] and [87-88].
 **Example**:   
 
 ```
 <<< GroundingYouTube["-1okAudsnAc"]   
-
+[
     {
-        "76":
-        {
+            "second": 81,
             "box":
             [
-                186,
-                244,
-                388,
-                452
+                218,
+                110,
+                421,
+                335
             ],
-            "step": "crack eggs"
+            "step_name": "crack eggs"
         },
-        "77":
         {
+            "second": 82,
             "box":
             [
-                193,
-                246,
-                395,
-                451
+                223,
+                7,
+                428,
+                215
             ],
-            "step": "crack eggs"
+            "step_name": "crack eggs"
         },
-        "86":
         {
+            "second": 86,
             "box":
             [
                 224,
@@ -66,10 +62,10 @@ To note:
                 432,
                 218
             ],
-            "step": "pour egg whites"
+            "step_name": "pour egg whites"
         },
-        "87":
         {
+            "second": 87,
             "box":
             [
                 246,
@@ -77,20 +73,9 @@ To note:
                 450,
                 335
             ],
-            "step": "pour egg whites"
+            "step_name": "pour egg whites"
         },
-        "88":
-        {
-            "box":
-            [
-                245,
-                79,
-                454,
-                292
-            ],
-            "step": "pour egg whites"
-        },
-}
+]
 ```
 
 
