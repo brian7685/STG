@@ -1,7 +1,7 @@
 
 # Grounding YouTube Dataset #
-HowToCaption: Prompting LLMs to Transform Video Annotations at Scale  
-[arxiv](https://arxiv.org/pdf/2310.04900.pdf)
+What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions
+[arxiv](https://arxiv.org/abs/2303.16990)
 
 
 ## Download:  
