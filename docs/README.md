@@ -25,7 +25,7 @@ What, when, and where? -- Self-Supervised Spatio-Temporal Grounding in Untrimmed
 
   
 To note: 
-- Our annotation is in 1 FPS. In the following examples, there are two sequences of actions, 'crack eggs' and 'pour egg whiles', where their duration lies between second [81-83] and [87-88].
+- Our annotation is in 1 FPS. In the following examples, there are two sequences of actions, 'crack eggs' and 'pour egg whiles', where their duration lies between second [81-83] and [86-88].
 **Example**:   
 
 ```
